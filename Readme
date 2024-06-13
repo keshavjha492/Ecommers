@@ -1,0 +1,36 @@
+E-commerce API
+This API provides user management, product management, order management, and cart management functionalities for an e-commerce platform.
+Features
+
+
+
+Getting Started
+
+Prerequisites
+Python 3.8 or higher
+Django 3.2 or higher
+Django REST Framework 3.13 or higher
+Installing
+Clone the repository:
+
+
+
+Install the required packages:
+pip install -r requirements.txt
+
+
+Make migrations and apply them:
+python manage.py makemigrations
+python manage.py migrate
+
+
+Create a superuser:
+python manage.py createsuperuser
+
+
+Run the development server:
+python manage.py runserver
+
+Authorization: Bearer [Token]
+
+Now you can access the API at http://127.0.0.1:8000/
